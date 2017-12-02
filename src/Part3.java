@@ -20,6 +20,22 @@ public class Part3 {
 	    }
 	
 	
+	 public String lastPart(String stringa, String stringb){
+		         int l = stringb.length();
+		         int k = stringa.length();
+		         int curIndex = 0;
+		         curIndex = stringb.indexOf(stringa, curIndex);
+		         if(curIndex == -1){
+		             return stringb;
+		         }
+		         String s = stringb.substring(curIndex + k, l);
+		         return s;
+		     }
+	 
+	 
+	 
+	 
+	 
 	 
 	  public void testing(){
 		          String stringa = "by";
