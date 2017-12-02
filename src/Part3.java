@@ -58,6 +58,18 @@ public class Part3 {
 		          else{
 		              System.out.println(twoOccurrences(stringa, stringb));
 		          }
+		        
+		        stringa = "an";
+		                stringb = "banana";
+		                System.out.println(stringa);
+		                System.out.println(stringb);
+		                System.out.println(lastPart(stringa, stringb));
+		                stringa = "zoo";
+		                stringb = "forest";
+		                System.out.println(stringa);
+		                System.out.println(stringb);
+		               System.out.println(lastPart(stringa, stringb));
+		        
 		      }
 	 
 	
@@ -65,7 +77,8 @@ public class Part3 {
 	
 	
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
+		Part3 obj = new Part3();
+		obj.testing() ;
 
 	}
 
