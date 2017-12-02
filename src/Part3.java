@@ -20,6 +20,30 @@ public class Part3 {
 	    }
 	
 	
+	 
+	  public void testing(){
+		          String stringa = "by";
+		          String stringb = "A story by Abby Long";
+		          System.out.println(stringa);
+		          System.out.println(stringb);
+		          if(twoOccurrences(stringa, stringb)){
+		            System.out.println(twoOccurrences(stringa, stringb));
+		          }
+		          else{
+		              System.out.println(twoOccurrences(stringa, stringb));
+		          }
+		          stringa = "atg";
+		          stringb = "ctgtatgta";
+		          System.out.println(stringa);
+		          System.out.println(stringb);
+		        if(twoOccurrences(stringa, stringb)){
+		              System.out.println(twoOccurrences(stringa, stringb));
+		          }
+		          else{
+		              System.out.println(twoOccurrences(stringa, stringb));
+		          }
+		      }
+	 
 	
 	
 	
